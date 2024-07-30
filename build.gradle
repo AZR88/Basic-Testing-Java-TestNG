@@ -10,11 +10,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+
     testImplementation group: 'org.testng', name: 'testng', version: '7.10.2'
 }
 
 test {
-    useJUnitPlatform()
+    useTestNG()
 }
