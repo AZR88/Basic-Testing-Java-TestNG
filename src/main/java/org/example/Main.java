@@ -15,4 +15,10 @@ public class Main {
             return a - b;
         }
     }
+
+    public static class perkalian {
+        public int add(int a, int b) {
+            return a * b;
+        }
+    }
 }
