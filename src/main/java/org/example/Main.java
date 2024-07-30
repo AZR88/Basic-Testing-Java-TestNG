@@ -9,4 +9,10 @@ public class Main {
             return a + b;
         }
     }
+
+    public static class pengurangan {
+        public int add(int a, int b) {
+            return a - b;
+        }
+    }
 }
